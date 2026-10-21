@@ -1,5 +1,5 @@
-package model;
-
-public interface SpeakBehavior {
-    String speak();
-}
+//package model;
+//
+//public interface SpeakBehavior {
+//    String speak();
+//}

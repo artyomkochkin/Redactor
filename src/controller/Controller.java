@@ -1,8 +1,8 @@
 package controller;
 
-import model.Cat;
-import model.Dog;
-import model.SpeakBehavior;
+//import model.Cat;
+//import model.Dog;
+//import model.SpeakBehavior;
 import view.MyFrame;
 import view.MyPanel;
 
@@ -13,11 +13,11 @@ import java.awt.geom.Rectangle2D;
 import java.awt.geom.RectangularShape;
 
 public class Controller {
-    Cat cat;
-    Dog dog;
+//    Cat cat;
+//    Dog dog;
     MyPanel myPanel;
     MyFrame myFrame;
-    SpeakBehavior startanimal;
+    //SpeakBehavior startanimal;
     Point2D[] points;
     Rectangle2D rectangle2D;
     Ellipse2D ellipse2D;
@@ -32,15 +32,15 @@ public class Controller {
         myFrame = new MyFrame(myPanel);
     }
 
-    public String catAction() {
-        SpeakBehavior cat = new Cat("Myrka");
-        return cat.speak();
-    }
-
-    public String dogAction() {
-        SpeakBehavior dog = new Dog("Bim");
-        return dog.speak();
-    }
+//    public String catAction() {
+//        SpeakBehavior cat = new Cat("Myrka");
+//        return cat.speak();
+//    }
+//
+//    public String dogAction() {
+//        SpeakBehavior dog = new Dog("Bim");
+//        return dog.speak();
+//    }
 
     public void mousePressed(Point point) {
         points[0]= point;

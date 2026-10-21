@@ -21,13 +21,13 @@ public class MyPanel extends JPanel {
 
         t1 = new JTextField("", 10);
         t2 = new JTextField("", 10);
-        button = new JButton("Action 1");
-        dogbutton = new JButton("Action 2");
+        //button = new JButton("Action 1");
+        //dogbutton = new JButton("Action 2");
         switchButton = new JButton("Perecluchit");
         add(t1);
         add(t2);
-        add(button);
-        add(dogbutton);
+        //add(button);
+        //add(dogbutton);
         this.setBackground(Color.LIGHT_GRAY);
         addMouseListener(new MouseAdapter() {
             @Override
@@ -45,20 +45,20 @@ public class MyPanel extends JPanel {
             }
         });
 
-        button.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                t1.setText(controller.catAction());
-                t2.setText("Cat");
-            }
-        });
-        dogbutton.addActionListener(new ActionListener() {
-            @Override
-            public void actionPerformed(ActionEvent e) {
-                t1.setText(controller.dogAction());
-                t2.setText("Dog");
-            }
-        });
+//        button.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                t1.setText(controller.catAction());
+//                t2.setText("Cat");
+//            }
+//        });
+//        dogbutton.addActionListener(new ActionListener() {
+//            @Override
+//            public void actionPerformed(ActionEvent e) {
+//                t1.setText(controller.dogAction());
+//                t2.setText("Dog");
+//            }
+//        });
         switchButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
